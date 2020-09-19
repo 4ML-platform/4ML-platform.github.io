@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
+import Timeline from '../components/Timeline';
 
 import VideoContainer from './VideoContainer';
 
 function DemoContainer() {
 
-  const [videos, setVideos] = useState([
+  const [videos] = useState([
     {
       url: "https://static.fotor.com.cn/assets/projects/pages/0eeff7e0-7528-11e9-9443-e356e0129bd6_2e592a62-4a05-44f5-8483-2b31549c98fe_thumb.jpg",
       id: 0
@@ -37,6 +38,7 @@ function DemoContainer() {
   return (
     <>
       <VideoContainer videos={videos} selectedVideo={selectedVideo} onVideoSelect={onVideoSelect} />
+      <Timeline />
     </>
   );
 }

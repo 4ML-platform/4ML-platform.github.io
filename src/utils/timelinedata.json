@@ -1,0 +1,107 @@
+{
+  "result": [
+    {
+      "sequences": [
+        {
+          "mean": 0.8365764816602071,
+          "mode": 0.8347362875938416,
+          "number_of_frames": 12,
+          "start_time": 7.24822695035461,
+          "stop_time": 8.638297872340425
+        }
+      ],
+      "tag": { "article_name": "heels pumps or wedges" }
+    },
+    {
+      "sequences": [
+        {
+          "mean": 0.7644568383693695,
+          "mode": 0.8093652129173279,
+          "number_of_frames": 10,
+          "start_time": 8.936170212765958,
+          "stop_time": 9.829787234042554
+        },
+        {
+          "mean": 0.8973817825317383,
+          "mode": 0.962706446647644,
+          "number_of_frames": 14,
+          "start_time": 10.425531914893618,
+          "stop_time": 11.71631205673759
+        }
+      ],
+      "tag": { "article_name": "blouse" }
+    },
+    {
+      "sequences": [
+        {
+          "mean": 0.8568830092748007,
+          "mode": 0.9723300337791444,
+          "number_of_frames": 6,
+          "start_time": 2.581560283687943,
+          "stop_time": 3.0780141843971633
+        },
+        {
+          "mean": 0.973631567425198,
+          "mode": 0.9849300384521484,
+          "number_of_frames": 9,
+          "start_time": 10.02836879432624,
+          "stop_time": 10.822695035460994
+        },
+        {
+          "mean": 0.9730885436660364,
+          "mode": 0.9924222826957704,
+          "number_of_frames": 19,
+          "start_time": 11.617021276595745,
+          "stop_time": 13.404255319148938
+        }
+      ],
+      "tag": { "article_name": "t shirt" }
+    },
+    {
+      "sequences": [
+        {
+          "mean": 0.8673544113452618,
+          "mode": 0.9321807622909546,
+          "number_of_frames": 26,
+          "start_time": 4.468085106382979,
+          "stop_time": 7.24822695035461
+        },
+        {
+          "mean": 0.7924907803535461,
+          "mode": 0.885334312915802,
+          "number_of_frames": 6,
+          "start_time": 9.23404255319149,
+          "stop_time": 9.73049645390071
+        },
+        {
+          "mean": 0.927037741456713,
+          "mode": 0.7081891894340515,
+          "number_of_frames": 7,
+          "start_time": 10.127659574468083,
+          "stop_time": 10.72340425531915
+        },
+        {
+          "mean": 0.960900034223284,
+          "mode": 0.8938067555427551,
+          "number_of_frames": 21,
+          "start_time": 11.5177304964539,
+          "stop_time": 13.50354609929078
+        }
+      ],
+      "tag": { "article_name": "jeans" }
+    },
+    {
+      "sequences": [
+        {
+          "mean": 0.8537595011293888,
+          "mode": 0.7774492502212524,
+          "number_of_frames": 16,
+          "start_time": 11.02127659574468,
+          "stop_time": 12.51063829787234
+        }
+      ],
+      "tag": { "article_name": "sweater" }
+    }
+  ],
+  "metadata": { "content_type": "json", "duration": 0.267074209 }
+}

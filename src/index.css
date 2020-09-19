@@ -11,3 +11,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.tl-storyslider {
+  display: none !important;
+}
