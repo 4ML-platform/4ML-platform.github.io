@@ -4,17 +4,18 @@ import styled from 'styled-components';
 import BackgroundImage from './components/BackgroundImage';
 import Header from './components/Header';
 import AboutProduct from './components/AboutProduct';
-
+import Features from './components/Features';
+import DemoContainer from './containers/DemoContainer';
 
 const Wrapper = styled.div`
   width: 100%;
-  overflow: hidden;
   min-height: 100vh;
 `;
 
 const Container = styled.div`
   max-width: 1200px;
   margin: auto;
+  padding: 0 16px;
 `;
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
       <Container>
         <Header />
         <AboutProduct />
+        <DemoContainer />
+        <Features />
       </Container>
     </Wrapper>
   );

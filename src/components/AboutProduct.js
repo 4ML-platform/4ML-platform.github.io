@@ -9,7 +9,7 @@ const StyledH1 = styled.h1`
 `;
 
 const StyledH4 = styled.h4`
-  width: 590px;
+  max-width: 590px;
   margin: auto;
   text-align: center;
   font-weight: 400;
