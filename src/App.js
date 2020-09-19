@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import BackgroundImage from './components/BackgroundImage';
 import Header from './components/Header';
+import AboutProduct from './components/AboutProduct';
 
 
 const Wrapper = styled.div`
@@ -22,6 +23,7 @@ function App() {
       <BackgroundImage />
       <Container>
         <Header />
+        <AboutProduct />
       </Container>
     </Wrapper>
   );
