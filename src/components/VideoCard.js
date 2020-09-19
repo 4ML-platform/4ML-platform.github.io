@@ -31,14 +31,15 @@ const StyledPlayImg = styled.img`
   transform: translate(-50%, -50%);
 `;
 
-const VideoCard = React.memo(function VideoCard({ video: { url, id }, selected, onVideoSelect }) {
-
-  return (
-    <StyledDiv selected={selected} onClick={() => onVideoSelect(id)}>
-      <StyledImg src={url} />
-      <StyledPlayImg src={playIcon} />
-    </StyledDiv>
-  );
-});
+const VideoCard = React.memo(
+  function ({ video: { url, id }, selected, onVideoSelect }) {
+    return (
+      <StyledDiv selected={selected} onClick={() => onVideoSelect(id)}>
+        <StyledImg src={url} />
+        <StyledPlayImg src={playIcon} />
+      </StyledDiv>
+    );
+  }
+);
 
 export default VideoCard;

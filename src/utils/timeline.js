@@ -36,7 +36,6 @@ export const showTimeline = function (containerId, sequencerResults, onClickHand
     ['BCE', 'Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec'].forEach(function (txt) {
       document.querySelectorAll('.tl-timeaxis span')
         .forEach(item => {
-          console.dir(item);
           if (item.innerText.indexOf(`${txt}`) !== -1) {
             item.remove();
           }

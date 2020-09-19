@@ -1,23 +1,42 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const StyledH1 = styled.h1`
+const StyledDiv = styled.div`
   text-align: center;
   margin: 24px 0;
+  width: 30%;
 `;
 
-const StyledH4 = styled.h4`
-  width: 590px;
-  margin: auto;
-  text-align: center;
-  font-weight: 400;
+const StyledImgDiv = styled.div`
+  background: #121212;
+  border: 1px solid #29FFBF;
+  box-sizing: border-box;
+  box-shadow: 0px 12px 30px #081B15;
+  border-radius: 8px;
+  overflow: hidden;
 `;
 
-function FeatureCard() {
+const StyledImg = styled.img`
+  width: 100%
+`;
+
+const StyledTitle = styled.h3`
+  margin-top: 40px;
+`;
+
+const StyledText = styled.div`
+  font-size: 0.9rem;
+`;
+
+function FeatureCard({ feature: { url, title, text } }) {
   return (
-    <div>
-      
-    </div>
+    <StyledDiv>
+      <StyledImgDiv>
+        <StyledImg src={url} />
+      </StyledImgDiv>
+      <StyledTitle>{title}</StyledTitle>
+      <StyledText>{text}</StyledText>
+    </StyledDiv>
   );
 }
 
