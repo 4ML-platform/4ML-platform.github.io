@@ -32,10 +32,10 @@ const StyledPlayImg = styled.img`
 `;
 
 const VideoCard = React.memo(
-  function ({ video: { url, id }, selected, onVideoSelect }) {
+  function ({ video: { thumbnail, id }, selected, onVideoSelect }) {
     return (
       <StyledDiv selected={selected} onClick={() => onVideoSelect(id)}>
-        <StyledImg src={url} />
+        <StyledImg src={thumbnail} />
         <StyledPlayImg src={playIcon} />
       </StyledDiv>
     );

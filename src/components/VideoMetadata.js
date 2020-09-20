@@ -27,10 +27,10 @@ const StyledVideo = styled.video`
 `;
 
 const VideoMetadata = React.memo(
-  function ({ video: { videoSrc } }) {
+  function ({ video: { url } }) {
     return (
       <StyledDiv>
-        <StyledVideo src={videoSrc} controls />
+        <StyledVideo src={url} controls />
         <Metadata />
       </StyledDiv>
     );

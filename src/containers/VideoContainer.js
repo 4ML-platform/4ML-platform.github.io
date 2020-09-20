@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import styled from 'styled-components';
 
 import VideosWrapper from '../components/VideosWrapper';
@@ -25,8 +25,11 @@ const StyledButton = styled.button`
 `;
 
 function VideoContainer({ videos, selectedVideo, onVideoSelect }) {
-
   const [selectedVideoId, setSelectedVideoId] = useState(selectedVideo);
+
+  useEffect(() => {
+    setSelectedVideoId(selectedVideo)
+  }, [selectedVideo]);
 
   return (
     <>
