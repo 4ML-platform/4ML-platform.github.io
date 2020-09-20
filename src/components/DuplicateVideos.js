@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import DuplicateVideoCard from './DuplicateVideoCard';
 
-import VideoCard from './VideoCard';
 import VideoModal from './VideoModal';
 
 const StyledDiv = styled.div`
@@ -33,7 +33,7 @@ function DuplicateVideos({ videos }) {
     <>
       <StyledH1>Near Duplicates</StyledH1>
       <StyledDiv>
-        {videos.map((video, i) => <VideoCard video={{ url: video, id: video }} key={i} onVideoSelect={onVideoSelect} ></VideoCard>)}
+        {videos.map((video, i) => <DuplicateVideoCard video={{ url: video, id: video }} key={i} onVideoSelect={onVideoSelect} ></DuplicateVideoCard>)}
       </StyledDiv>
       <VideoModal url={selectedVideo} isOpen={isOpen} close={() => setIsOpen(false)} />
     </>
