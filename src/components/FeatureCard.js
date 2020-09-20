@@ -17,6 +17,7 @@ const StyledImgDiv = styled.div`
 `;
 
 const StyledImg = styled.img`
+  display: block;
   width: 100%
 `;
 

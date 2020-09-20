@@ -7,6 +7,7 @@ import AboutProduct from './components/AboutProduct';
 import Features from './components/Features';
 import DemoContainer from './containers/DemoContainer';
 import DuplicateVideos from './components/DuplicateVideos';
+import Footer from './components/Footer';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -29,6 +30,7 @@ function App() {
         <DemoContainer />
         <DuplicateVideos />
         <Features />
+        <Footer />
       </Container>
     </Wrapper>
   );
