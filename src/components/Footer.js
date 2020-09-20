@@ -7,7 +7,11 @@ const StyledFooter = styled.footer`
   display: flex;
   align-items: center;
   height: 64px;
-  margin-top: 120px;
+  margin-top: 80px;
+
+  @media (min-width: 768px) {
+    margin-top: 120px
+  }
 `;
 
 const StyledDiv = styled.div`

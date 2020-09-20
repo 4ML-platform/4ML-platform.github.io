@@ -3,9 +3,13 @@ import styled from 'styled-components';
 
 const StyledH1 = styled.h1`
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 3rem;
   margin: 28px 0;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
 `;
 
 const StyledH4 = styled.h4`

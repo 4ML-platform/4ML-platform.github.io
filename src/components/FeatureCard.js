@@ -3,8 +3,16 @@ import styled from 'styled-components';
 
 const StyledDiv = styled.div`
   text-align: center;
-  margin: 24px 0;
-  width: 30%;
+  margin: 24px auto;
+  width: 100%;
+
+  @media(min-width: 576px) {
+    width: 48%;
+  }
+
+  @media(min-width: 768px) {
+    width: 30%;
+  }
 `;
 
 const StyledImgDiv = styled.div`

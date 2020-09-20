@@ -5,11 +5,25 @@ import Metadata from './Metadata';
 const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
-  margin-top: 120px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+
+  @media (min-width: 768px) {
+    margin-top: 120px
+  }
 `;
 
 const StyledVideo = styled.video`
-  width: 48%;
+  margin: 0 auto;
+  width: 100%;
+
+  @media(min-width: 576px) {
+    width: 80%;
+  }
+
+  @media(min-width: 768px) {
+    width: 48%;
+  }
 `;
 
 const VideoMetadata = React.memo(

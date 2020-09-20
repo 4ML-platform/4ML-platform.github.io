@@ -4,9 +4,19 @@ import styled from 'styled-components';
 const StyledDiv = styled.div`
   border: 1px solid #434343;
   border-radius: 8px;
-  width: 48%;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  min-height: 250px;
+  width: 100%;
+
+  @media(min-width: 576px) {
+    width: 80%;
+  }
+
+  @media(min-width: 768px) {
+    width: 48%;
+  }
 `;
 
 const HeaderDiv = styled.div`

@@ -5,7 +5,11 @@ import FeatureCard from './FeatureCard';
 
 const StyledH1 = styled.h1`
   text-align: center;
-  margin: 120px 0 24px;
+  margin: 80px 0 24px;
+
+  @media (min-width: 768px) {
+    margin-top: 120px
+  }
 `;
 
 const StyledH4 = styled.h4`
@@ -37,6 +41,7 @@ const features = [
 const StyledDiv = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 `;
 
 function Features() {
