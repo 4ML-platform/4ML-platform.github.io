@@ -26,7 +26,15 @@ body {
 }
 
 .tl-attribution {
-  display: none !important;
+  background-color: #000 !important;
+}
+
+.tl-attribution a:hover {
+  color: #fff !important;
+}
+
+.tl-attribution a {
+  display: flex;
 }
 
 .tl-timemarker.tl-timemarker-active .tl-timemarker-content-container {
