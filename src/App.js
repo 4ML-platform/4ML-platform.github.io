@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import BackgroundImage from './components/BackgroundImage';
 import Header from './components/Header';
 import AboutProduct from './components/AboutProduct';
-import Features from './components/Features';
+// import Features from './components/Features';
 import DemoContainer from './containers/DemoContainer';
 import Footer from './components/Footer';
 
@@ -27,7 +27,7 @@ function App() {
         <Header />
         <AboutProduct />
         <DemoContainer />
-        <Features />
+        {/* <Features /> */}
         <Footer />
       </Container>
     </Wrapper>
