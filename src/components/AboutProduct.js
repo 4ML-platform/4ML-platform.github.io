@@ -22,8 +22,8 @@ const StyledH4 = styled.h4`
 function AboutProduct() {
   return (
     <>
-      <StyledH1>Discover. Analyze. Share.</StyledH1>
-      <StyledH4>A Smart AI platform that lets you customise your meta, discover similar videos and share it with the world via twitter.</StyledH4>
+      <StyledH1>Search. Analyze. Integrate.</StyledH1>
+      <StyledH4>A smart video platform that understands videos and makes it as searchable as the web. Go Beyond Metadata.</StyledH4>
     </>
   );
 }
