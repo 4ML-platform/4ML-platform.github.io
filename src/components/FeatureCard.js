@@ -16,10 +16,7 @@ const StyledDiv = styled.div`
 `;
 
 const StyledImgDiv = styled.div`
-  background: #121212;
-  border: 1px solid #29FFBF;
   box-sizing: border-box;
-  box-shadow: 0px 12px 30px #081B15;
   border-radius: 8px;
   overflow: hidden;
 `;
@@ -30,11 +27,22 @@ const StyledImg = styled.img`
 `;
 
 const StyledTitle = styled.h3`
-  margin-top: 40px;
+  margin-top: 12px;
+  padding: 0 12px;
+
+  @media(min-width: 768px) {
+    margin-top: 40px;
+    padding: 0 24px;
+  }
 `;
 
 const StyledText = styled.div`
   font-size: 0.9rem;
+  padding: 0 12px;
+
+  @media(min-width: 768px) {
+    padding: 0 24px;
+  }
 `;
 
 function FeatureCard({ feature: { url, title, text } }) {

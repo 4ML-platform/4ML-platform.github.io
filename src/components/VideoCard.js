@@ -6,8 +6,7 @@ import playIcon from '../assets/play.svg';
 const StyledDiv = styled.div`
   border: 2px solid ${props => props.selected ? "#A129FF" : "#434343"};
   border-radius: 8px;
-  width: 220px;
-  height: 125px;
+  width: 320px;
   overflow: hidden;
   display: flex;
   position: relative;

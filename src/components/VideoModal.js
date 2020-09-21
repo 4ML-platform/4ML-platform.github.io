@@ -46,7 +46,7 @@ function VideoModal({ url, isOpen, close }) {
     }
   }, [isOpen]);
 
-  const video = isOpen ? <StyledVideo controls src={url} onClick={onVideoClick}></StyledVideo> : null;
+  const video = isOpen ? <StyledVideo controls autoPlay muted src={url} onClick={onVideoClick}></StyledVideo> : null;
   return <StyledDiv onClick={close} isOpen={isOpen}>{video}</StyledDiv>;
 }
 

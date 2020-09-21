@@ -30,7 +30,7 @@ const VideoMetadata = React.memo(
   function ({ video: { url } }) {
     return (
       <StyledDiv>
-        <StyledVideo src={url} controls />
+        <StyledVideo src={url} controls autoPlay muted />
         <Metadata />
       </StyledDiv>
     );
