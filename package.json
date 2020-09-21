@@ -1,6 +1,6 @@
 {
-  "name": "platform-ui",
-  "version": "0.1.0",
+  "name": "4ml-platform",
+  "version": "0.0.1",
   "private": true,
   "homepage": "https://4ml-platform.github.io",
   "dependencies": {

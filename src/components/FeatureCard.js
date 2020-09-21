@@ -26,17 +26,17 @@ const StyledImg = styled.img`
   width: 100%
 `;
 
-const StyledTitle = styled.h3`
+const StyledH3 = styled.h3`
   margin-top: 12px;
   padding: 0 12px;
 
   @media(min-width: 768px) {
-    margin-top: 40px;
+    margin-top: 24px;
     padding: 0 24px;
   }
 `;
 
-const StyledText = styled.div`
+const StyledP = styled.p`
   font-size: 0.9rem;
   padding: 0 12px;
 
@@ -51,8 +51,8 @@ function FeatureCard({ feature: { url, title, text } }) {
       <StyledImgDiv>
         <StyledImg src={url} />
       </StyledImgDiv>
-      <StyledTitle>{title}</StyledTitle>
-      <StyledText>{text}</StyledText>
+      <StyledH3>{title}</StyledH3>
+      <StyledP>{text}</StyledP>
     </StyledDiv>
   );
 }
